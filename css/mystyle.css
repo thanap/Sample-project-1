@@ -1,0 +1,238 @@
+.navbar-light {
+  /*background: rgba(255, 215, 0, 0.9);*/
+  border-bottom: none;
+}
+.navbar-light .navbar-toggle {
+  border: 0 solid;
+}
+.navbar-light .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-light .navbar-toggle:active {
+  background-color: transparent;
+}
+.navbar-light .navbar-toggle .icon-bar {
+  background-color: #111;
+}
+.navbar-light .navbar-collapse, .navbar-light .navbar-form {
+  border-color: transparent;
+}
+.navbar-light .navbar-nav > li > a {
+  color: white;
+  background: #27AE60;
+}
+.navbar-light .navbar-nav > li > a:hover, .navbar-light .navbar-nav > li > a:focus {
+  color: #f4511e;
+  background-color: #2E4053;
+  transition: all 0.5s;
+}
+.navbar-nav li.active a {
+    color: white !important;
+    background-color: #283747 !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*hover effect*/
+.navbar-nav li a:after {
+  content: '';
+  width: 0%;
+  margin-left: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.navbar-nav li a:hover:after {
+  background-color: red;
+  width: 60%;
+  margin-left: 20%;
+}
+.big-logo-row {
+  background: #52BE80;
+}
+.big-logo-row .big-logo-container {
+  padding-top: 50px;
+  color: white;
+}
+.big-logo-row h1 {
+  font-size: 4em;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+.content-padding {
+  padding: 30px;
+}
+.glyphicon {
+  font-size: 50px;
+}
+.content-bg {
+  background: transparent url(../img/global.png) no-repeat center center;
+  background-size: cover;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+.bg-content {
+  background: #F8F9F9;
+  padding: 40px;
+}
+.promotion-bg1 {
+  background: #333;
+  color: white;
+}
+.promotion-bg2 {
+  background: #3498DB;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.big-ass-text {
+  font-size: 130px;
+  line-height: 250px;
+  color: white;
+  padding-top: 50px;
+}
+.product-size {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section .promotion-bg1 .product-size {
+  padding-right: 60px;
+  padding-left: 40px;
+}
+section {
+  background: #FDFEFE;
+  display: block;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.content-body {
+  padding-bottom: 40px;
+}
+section .promotion-bg1 .container-fluid .row .col-xs-12 .showcase-detail {
+
+}
+.bg-img {
+  height: 400px;
+  background: url('http://tympanus.net/Freebies/Boxify/img/features-intro-01.jpg') no-repeat center center;
+	background-size: cover;
+}
+section .right-sidebar {
+  position: absolute;
+  background: #efefef;
+  right: 0;
+  width: 35%;
+  height: 90%;
+  left: 65%;
+  overflow: hidden;
+  padding: 40px 40px 40px 70px;
+}
+footer {
+  background: #283747;
+  color: white;
+  position: relative;
+  display: block;
+}
+footer .footer-left {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .right-footer {
+    position: absolute;
+    background-color: #2E4053;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    padding: 20px 0 0 70px;
+}
+.developer-info {
+  padding-top: 10px;
+  background: #212F3D;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  section {
+    padding-bottom: 0;
+  }
+  section .right-sidebar {
+      height: auto;
+      left: auto;
+      position: relative;
+      top: auto;
+      width: 100%;
+      height: 100%;
+      padding: 40px 40px 40px 40px ;
+      display: block;
+
+    }
+    .col-xs-12 {
+      width: 100%;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      }
+
+    footer .right-footer {
+      height: auto;
+      left: auto;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display:  flex;
+      padding-bottom: 40px;
+      padding-left: 0;
+    }
+
+    .product-size {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .big-ass-text {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .content-body {
+        padding-bottom: 0;
+    }
+
+}
+
+
+@media (min-width: 400px) {
+  .big-logo-row h1 {
+  font-size: 4.5em;
+  }
+}
+@media (min-width: 440px) {
+  .big-logo-row h1 {
+  font-size: 5.5em;
+  }
+}
+@media (min-width: 500px) {
+.big-logo-row h1 {
+font-size: 6.5em;
+  }
+}
+@media (min-width: 630px) {
+  .big-logo-row h1 {
+  font-size: 7.5em;
+  }
+}
+@media (min-width: 768px) {
+  .big-logo-row h1 {
+  font-size: 9em;
+  padding-bottom: 30px;
+  }
+
+}
+@media (min-width: 1200px) {
+  .big-logo-row h1 {
+  font-size: 12em;
+  }
+  section .right-sidebar {
+    max-width: 700px;
+    padding-right: 80px;
+  }
+}
